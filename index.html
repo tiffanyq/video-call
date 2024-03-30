@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>video call</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥️</text></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="body-container">
+      <h2 id="page-title">work call</h2>
+      <div id="screen-1">
+        <div id="self-tile-screen-1">
+          <img src="img/you.jpg" alt="Your video call tile. You are a lemur.">
+        </div>
+        <button id="join">Join now</button>
+      </div>
+      <div id="screen-2">
+        <div class="call-row">
+            <div class="participant-tile">
+              <img src="img/colleague_1.jpg" alt="Your first colleague, a turtle.">
+              <div id="bubble-1" class="speech-bubble">hey happy monday everyone! how was your weekend?</div>
+            </div>
+            <div class="participant-tile">
+              <img src="img/colleague_2.jpg" alt="Your second colleague, a squirrel.">
+              <div id="bubble-2" class="speech-bubble"></div>
+            </div>
+        </div>
+        <div class="call-row">
+            <div class="participant-tile">
+              <img src="img/colleague_3.jpg" alt="Your third colleague, a cow.">
+              <div id="bubble-3" class="speech-bubble"></div>
+            </div>
+            <div class="participant-tile">
+              <img src="img/colleague_4.jpg" alt="Your fourth colleague, a rubber duck.">
+              <div id="bubble-4" class="speech-bubble"></div>
+            </div>
+        </div>
+        <div id="button-tray-container">
+          <div id="button-tray">
+            <div class="button-container">
+            <div id="april-fools-tooltip" class="tooltip-container">
+              <div id="april-fools" class="tooltip">
+                  <div class="tooltip-title dm-sans-700">Gotcha! </div>
+                  <div class="tooltip-body dm-sans-400">These buttons do nothing today. Happy April Fool's Day from your favorite video conferencing software company! </div>
+                  <span class="inner-tooltip-button-tray"><button id="dismiss-april-fools" class="dm-sans-700">Dismiss</button><a href="https://www.instagram.com/anotherbrowsertab" target="_blank" class="tooltip-dismiss dm-sans-700">Learn more</a></span>
+                </div>
+                <div id="tooltip-tip-april-fools" class="tooltip-tip"></div>
+            </div>
+              <button id="audio" aria-label="turn audio off"><span class="material-symbols-outlined">
+                  mic
+                  </span>
+              </button>
+            </div>
+            <div class="button-container">
+              <button id="video" aria-label="turn camera off"><span class="material-symbols-outlined">
+                  videocam
+                  </span>
+              </button>
+            </div>
+            <div class="button-container">
+                <div id="end-call-tooltip" class="tooltip-container">
+                    <div id="end-call-info" class="tooltip">
+                        <div class="tooltip-title dm-sans-700">Your organization has disabled this feature</div>
+                        <div class="tooltip-body dm-sans-400">You cannot end the call until the time specified in the meeting invite. Remaining time: ERR__NO_SET_END</div>
+                        <button id="dismiss-end-call" class="dm-sans-700 tooltip-dismiss">Got it</button>
+                    </div>
+                  <div id="tooltip-tip" class="tooltip-tip"></div>
+                </div>
+              <button id="end-call" aria-label="end call"><span class="material-symbols-outlined">
+                  call_end
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <div id="self-tile-screen-2">
+            <img src="img/you.jpg" alt="Your video call tile. You are a lemur.">
+        </div>
+
+      </div>
+      <button id="embarrass-yourself">
+        do the most embarrassing thing possible
+      </button>
+    </div>
+    <!--
+      Photos from Unsplash:
+      Amy Reed: https://unsplash.com/photos/black-and-white-lemur-sitting-down-on-brown-rock-_-tDq2KrVA4
+      Ádám Berkecz: https://unsplash.com/photos/white-and-black-animal-on-brown-tree-branch-during-daytime-kDb_2Xkgac0
+      Dušan veverkolog: https://unsplash.com/photos/brown-rabbit-on-tree-I3zU119OPW0
+      Cedric Fox: https://unsplash.com/photos/brown-turtle-between-grasses-1tIkmgkpfNQ
+      Timothy Dykes: https://unsplash.com/photos/yellow-rubber-duck-on-white-background-LhqLdDPcSV8
+      Kseniya Konovets: https://unsplash.com/photos/brown-cow-on-gray-sand-during-daytime-rB734RW4xdE
+    -->
+</html>

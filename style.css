@@ -1,0 +1,210 @@
+html {
+  touch-action: manipulation;
+}
+
+body, button, input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+img {
+  width: 180px;
+  height: 120px;
+}
+
+.dm-sans-400 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.dm-sans-700 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 14px;
+  color: #000;
+  background-color: rgb(221, 221, 231);
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#body-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#join {
+  margin-top: 24px;
+  width: 180px;
+  padding: 1em 1em;
+  border-radius: 8px;
+}
+
+#screen-2, #embarrass-yourself, #april-fools-tooltip, #end-call-tooltip, .speech-bubble {
+  display: none;
+}
+
+.call-row {
+  display: flex;
+  flex-direction: row;
+}
+.call-row div {
+  margin: 4px;
+}
+
+.participant-tile {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.speech-bubble {
+  background-color: rgba(255,255,255,0.9);
+  width: 156px;
+  height: 44px;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  border: 2px solid #282828;
+  padding: 2px 6px;
+}
+
+#dismiss-april-fools {
+  background: none;
+  color: #ffffff;
+  border: none;
+  margin-right: 56px;
+  font-size: 12px;
+}
+
+.inner-tooltip-button-tray {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip {
+  background-color: rgb(51, 118, 227);
+  color: #ffffff;
+  position: absolute;
+  width: 160px;
+  bottom: 16px;
+  left: -52px;
+  height: 160px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 16px;
+}
+
+.tooltip-title {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.tooltip-tip {
+  background-color: rgb(51, 118, 227);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 8px;
+  left: 14px;
+  transform: rotate(45deg);
+}
+
+.tooltip-dismiss {
+  font-size: 12px;
+  position: absolute;
+  right: 12px;
+  border-radius: 16px;
+  border: 0;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #282828;
+  text-decoration: none;
+}
+
+#april-fools {
+  width: 200px;
+  height: 142px;
+  left: 12px;
+}
+
+#dismiss-end-call {
+  margin-top: 24px;
+}
+
+#tooltip-tip-april-fools {
+  left: 44px;
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+#button-tray {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container + .button-container {
+  margin-left: 12px;
+}
+#self-tile-screen-2 img {
+  width: 120px;
+  height: 80px;
+  float: right;
+  margin-top: 12px;
+}
+#audio, #video, #end-call {
+  border-radius: 60px;
+  height: 48px;
+  width: 48px;
+}
+
+#end-call {
+  background-color: #fa4d4d;
+  color: #ffffff;
+}
+
+#embarrass-yourself {
+  font-size: 48px;
+  position: absolute;
+  padding: 20px;
+  height: 300px;
+  font-weight: 700;
+}
+
+@keyframes background-color-animation {
+  0% {
+    background-color: #ff7777;  
+}
+100% {
+    background-color: #c00303;
+}
+}
+
+.embarrassing-background {
+  background-color: #fa4d4d;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: background-color-animation;
+}
