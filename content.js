@@ -1,8 +1,8 @@
 const opening_dialogue = [
 	"oh it was great! oh wow what did i do again?",
-	"the sun was out which was so nice. it's been so rainy",
+	"the sun was out which was so nice. weather was great",
 	"yeah no absolutely",
-	"yeah i got to spend time outside enjoying the sunshine",
+	"yeah i got to spend time outside enjoying the sun",
 	"i'm glad you got to enjoy the weather!",
 	"i'm so excited summer is soon!",
 	"i can't believe Q1 is over!",
