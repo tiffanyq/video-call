@@ -193,8 +193,9 @@ body {
   font-size: 48px;
   position: absolute;
   padding: 20px;
-  height: 300px;
   font-weight: 700;
+  min-height: 300px;
+  max-width: 500px;
 }
 
 @keyframes background-color-animation {
