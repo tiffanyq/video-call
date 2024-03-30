@@ -1,2 +1,2 @@
-# video-call-company
-i am a video calling software company and april 1 is coming up
+# video-call
+an ode to the video call and the faith we place in icons having lines crossing through them <3
