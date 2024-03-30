@@ -28,6 +28,11 @@ img {
   font-variation-settings: "slnt" 0;
 }
 
+.material-symbols-outlined {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 body {
   font-size: 14px;
   line-height: 14px;
