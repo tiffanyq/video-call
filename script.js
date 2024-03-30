@@ -25,7 +25,7 @@ window.addEventListener("load", function(event) {
   endCallTooltip.addEventListener('click', closeEndCallTooltip);
 
   colleagueTiles = document.querySelectorAll(".speech-bubble");
-  setInterval(advanceMeetingDialogue, 3000);
+  setInterval(advanceMeetingDialogue, 5000);
   // start with colleague one (index 0)
   document.getElementById("bubble-1").style.display = "block";
 });
