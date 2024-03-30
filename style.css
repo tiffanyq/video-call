@@ -10,6 +10,7 @@ body, button, input {
 img {
   width: 180px;
   height: 120px;
+  opacity: 1;
 }
 
 .dm-sans-400 {
@@ -74,7 +75,10 @@ body {
   position: relative;
   box-sizing: border-box;
 }
-
+.speaking img {
+  box-sizing: border-box;
+  border: 4px solid #3376e3;
+}
 .speech-bubble {
   background-color: rgba(255,255,255,0.9);
   width: 156px;
@@ -102,7 +106,7 @@ body {
 }
 
 .tooltip {
-  background-color: rgb(51, 118, 227);
+  background-color: #3376e3;
   color: #ffffff;
   position: absolute;
   width: 160px;
@@ -121,7 +125,7 @@ body {
 }
 
 .tooltip-tip {
-  background-color: rgb(51, 118, 227);
+  background-color: #3376e3;
   position: absolute;
   width: 20px;
   height: 20px;

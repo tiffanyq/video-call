@@ -124,6 +124,7 @@ function advanceMeetingDialogue() {
   for (let i = 0; i < colleagueTiles.length; i++) {
     if (i === selectedTileIndex) {
       colleagueTiles[i].style.display = "block";
+      colleagueTiles[i].parentElement.classList.add("speaking");
       // post-embarrassment dialogue
       if (haveBeenEmbarrassed) {
         let dialogueLine = postEmbarrassmentDialogueLine;
@@ -152,6 +153,7 @@ function advanceMeetingDialogue() {
       }
       }
     } else {
+      colleagueTiles[i].parentElement.classList.remove("speaking");
       colleagueTiles[i].style.display = "none";
     }
   }
