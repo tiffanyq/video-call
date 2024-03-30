@@ -40,7 +40,7 @@ const post_embarrassment_dialogue = [
 	"hey actually we have no meeting agenda. let's end early!",
 	"lemur, is your microphone working?",
 	"lemur hey were you hacked?",
-	"lemur i think you've been hacked!!",
+	"omg lemur i think you've been hacked!!",
 	"lemur i think something is happening with your computer maybe!!",
 	"hey lemur? everything good?",
 	"lemur! i dont think your mic and video buttons are working!",
