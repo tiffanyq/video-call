@@ -32,7 +32,7 @@ const looping_dialogue = [
 ];
 
 const post_embarrassment_dialogue = [
-	"hey lemur i think you're not on mute!",
+	"lemur just fyi i think you're not on mute!",
 	"lemur is everything ok?",
 	"hearing sound feedback, could everyone go on mute?",
 	"maybe we should all turn off our video!",
@@ -47,5 +47,6 @@ const post_embarrassment_dialogue = [
 	"lemur! i dont think your mic and video buttons are working!",
 	"haha weirdddd this video call is acting so silly today!!",
 	"who enabled 'can't end call'? why does this feature exist?",
+	"for next meeting could we ensure we set an end time?",
 	"i think we can sync offline actually!!"
 ];
