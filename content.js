@@ -27,18 +27,19 @@ const looping_dialogue = [
 	"what are the deliverables for this?",
 	"let's figure out those details offline",
 	"maybe we can sync offline next week",
+	"have you all seen the new video call features?",
 	"have we aligned on the success metrics yet?"
 ];
 
 const post_embarrassment_dialogue = [
-	"hey lemur i think you're not on mute...",
+	"hey lemur i think you're not on mute!",
 	"lemur is everything ok?",
 	"hearing sound feedback, could everyone go on mute?",
-	"hmmm could everyone turn off their video?",
+	"maybe we should all turn off our video!",
 	"hey lemur i'm going to ping you really quick",
 	"lemur is now still a good time?",
 	"hey actually we have no meeting agenda. let's end early!",
-	"lemur, is your microphone working?",
+	"lemur, i think you're picking up background noise!",
 	"lemur hey were you hacked?",
 	"omg lemur i think you've been hacked!!",
 	"lemur i think something is happening with your computer maybe!!",
