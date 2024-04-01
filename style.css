@@ -59,6 +59,15 @@ body {
   border-radius: 8px;
 }
 
+.lemur-label {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #282828;
+}
+
 #screen-2, #embarrass-yourself, #april-fools-tooltip, #end-call-tooltip, .speech-bubble {
   display: none;
 }
@@ -172,11 +181,18 @@ body {
 .button-container + .button-container {
   margin-left: 12px;
 }
+
+#self-tile-screen-1, #self-tile-screen-2 {
+  position: relative;
+}
+#self-tile-screen-2 {
+  float: right;
+  margin-top: 12px;
+}
+
 #self-tile-screen-2 img {
   width: 120px;
   height: 80px;
-  float: right;
-  margin-top: 12px;
 }
 #audio, #video, #end-call {
   border-radius: 60px;
